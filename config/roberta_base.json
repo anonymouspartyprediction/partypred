@@ -1,0 +1,18 @@
+{
+    "NUM_SPLITS": 10, 
+    "INCLUDE_POLITICIANS": false, 
+    "DO_PROJECT": true,
+    "WEIGHTED": false,
+    "ALL_RELATIONS_FILTER": true,
+
+    "GRAPH_FOLDER": "main_experiment",
+    "PATH_TO_TEXT_MODEL": "data/embeddings-roberta-base-512-word-embedding-mean.json",
+    "SEPARATE_TEXT_EMBEDDING_FILES": false,
+
+    "GRAPH_TYPES": ["mention", "retweet", "hashtag", "quote", "follow", "friend", "likes", "text"],
+
+    "SEMI": true,
+    "TWO_LAYER": false,
+    
+    "GRAPHS_TO_USE_LIST": [["text"]]
+  }

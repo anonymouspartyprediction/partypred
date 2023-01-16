@@ -1,0 +1,17 @@
+entity: blank_entity
+project: blank_project
+
+method: grid
+metric:
+  name: val_loss
+  goal: minimize
+
+command:
+    - ${env}
+    - python
+    - single_model.py
+    - ${args}
+
+parameters:
+  data_number:
+    values: [0]

@@ -1,0 +1,20 @@
+{
+    "FILTER_NUM": 0,
+    "ACTIVITY_QUANTILE": 0.5, 
+    "NUM_SPLITS": 10, 
+    "INCLUDE_POLITICIANS": true, 
+    "DO_PROJECT": true,
+    "WEIGHTED": false,
+    "ALL_RELATIONS_FILTER": true,
+
+    "PATH_TO_GRAPHS": "politicians_experiment",
+    "GRAPH_FOLDER": "politicians_experiment",
+
+    "GRAPH_TYPES": ["mention", "retweet", "hashtag", "quote", "follow", "friend"],
+
+    "SEMI": false,
+    "TWO_LAYER": false,
+    
+    "GRAPHS_TO_USE_LIST": [["mention"], ["retweet"], ["hashtag"], ["quote"], ["follow"], ["friend"], ["mention","retweet","hashtag","quote","follow","friend"],["mention","retweet","hashtag","quote", "friend"],["retweet","quote", "friend"],["retweet","friend"],["quote", "friend"],["retweet","quote"],
+                            ["mention","retweet","hashtag","quote"], ["friend","follow"]]
+  }

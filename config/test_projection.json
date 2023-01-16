@@ -1,0 +1,19 @@
+{
+    "FILTER_NUM": 0,
+    "ACTIVITY_QUANTILE": 0.5, 
+    "NUM_SPLITS": 10, 
+    "INCLUDE_POLITICIANS": false, 
+    "DO_PROJECT": false,
+    "WEIGHTED": false,
+    "ALL_RELATIONS_FILTER": true,
+
+    "GRAPH_FOLDER": "no_projection",
+    "PROJECTED_FOLDER": "main_experiment",
+
+    "GRAPH_TYPES": ["mention", "retweet", "hashtag", "quote", "follow", "friend", "likes"],
+
+    "SEMI": true,
+    "TWO_LAYER": false,
+    
+    "GRAPHS_TO_USE_LIST": [["mention"], ["retweet"], ["hashtag"], ["quote"], ["follow"], ["friend"], ["likes"], ["mention","retweet","hashtag","quote","follow","friend"]]
+  }
