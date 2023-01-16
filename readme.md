@@ -1,3 +1,7 @@
+Supplementary material is available [here](https://github.com/anonymouspartyprediction/partypred/blob/main/ICWSM%20Supplement.pdf).
+
+
+
 Core pipeline: construct_graphs -> gcn.py/gat.py/label_prop_baseline.py. These take path to configuration file as argument, e.g. construct_graphs.py config/main_experiment.json.
 
 If using gcn, can then use second_stage.py to combine embeddings from different input types and get final prediction.
